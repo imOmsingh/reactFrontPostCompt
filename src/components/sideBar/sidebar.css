@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+.sidebarContainer{
+    height: 200px;
+    width: 250px;
+    margin: 0px auto;
+}
+.sidebarContainerTop{
+    padding-bottom: 5px;
+    border-bottom: 1px rgba(128, 128, 128, 0.432) solid;
+    
+}
+input{
+    border: none;
+}
+input:focus{
+    outline:none;
+}
+.locationIcon{
+    height: 18px;
+    width: 18px;
+    margin-top: 3px;
+}
+.locationCity{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 5px;
+    
+}
+.locationEditImg{
+    height: 15px;
+    width: 15px;
+}
+.locationAdvice{
+    margin: 20px;
+}
+.errorSign{
+    height: 15px;
+    width: 15px;
+    opacity: 0.7;
+    margin-top: 3px;
+
+}
+.errorDesc{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 10px;
+    opacity: 0.7;
+}
+.recommendGroupCont,.groupHeadCont{
+    display: flex;
+    margin-top: 10px;
+}
+.groupHeadCont{
+    display: flex;
+}
+.thumbIcon{
+    height: 20px;
+    width: 20px;
+    margin-right:10px;
+}
+.groupText{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+}
+.followCont{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    margin-top: 20px;
+}
+.followerSuggest{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.followInfo{
+    display: flex;
+    flex-direction: row;
+}
+.followPhoto{
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+}
+.followName{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+.followerButton{
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+.followButton{
+    background-color: rgba(0, 0, 0, 0.155);
+    color: black;
+    padding-top: 5px;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+
+
+
+
+@media only screen and (max-width: 940px) {
+
+    .sidebarContainer{
+        width: 200px;
+        margin-left: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 670px) {
+
+    .sidebarContainer{
+        display: none;
+    }
+
+}

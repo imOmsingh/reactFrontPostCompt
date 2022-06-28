@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap');
+.navbarContainer{
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    padding: 0px 30px;
+    max-width: 1300px;
+    display: flex;
+    border-bottom: 1px rgba(133, 133, 133, 0.306) solid;
+}
+.navControls,.toggleNav,.navbarContainer{
+    display: flex;
+}
+.navToggleButton{
+    display: block;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 10px 0px;
+    margin: 0px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20.8px;
+    font-weight: 400;
+}
+.navToggleButtonRes{
+    display: block;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 10px 0px;
+    margin: 0px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20.8px;
+    font-weight: 400;
+}
+
+.inActive{
+    opacity: 0.6;
+}
+.Active{
+    border-bottom: 1.5px solid black;
+}
+.writePostButton{
+    background-color: #EDEEF0;
+    padding: 8px;
+    height: 35px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.writePostButtonRes{
+    background-color: #EDEEF0;
+    padding: 8px;
+    height: 35px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.downIcon{
+    font-size: 12px;
+    margin-left: 12px;
+}
+.joinGroupButton{
+    background-color: #2F6CE5;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+    padding: 8px;
+    height: 35px;
+}
+.joinGroupLogo{
+    height: 15px;
+    width: 15px;
+    margin: 0px 5px;
+}
+
+.navbarContainerRes{
+    display:none;
+    padding: 5px 20px ;
+}
+
+@media only screen and (max-width: 670px) {
+
+.Active{
+        border: none;
+        font-weight: bold;
+    }
+    .navbarContainer{
+        display: none;
+    }
+    .ResponsivePostNavBar{
+        display: block;
+    }
+    .navbarContainerRes{
+        display: flex;
+        margin-top: 5px;
+    }
+}

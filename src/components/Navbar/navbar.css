@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+.navConatainer{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    padding: 10px 35px;
+}
+.logoImg img{
+    height: 100%;
+    width: 100%;
+}
+.searchBox{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(242, 242, 242);
+    width: auto;
+    border-radius: 20px;
+    height: 90%;
+    margin: auto;
+    padding: 5px 10px;
+    color: rgb(115, 115, 115);
+}
+.seachIcon{
+    font-size: 12px;
+    margin-top: 3px;
+}
+.searchText{
+    margin: 0px 10px;
+    font-size: 12px;
+    font-weight:400;
+}
+.userAccountBox{
+    font-size: 14px;
+    padding-top: 3px;
+    word-spacing: 0.5px;
+}
+.downIconUser{
+    cursor: pointer;
+    margin-top: 7px;
+    font-size: 12px;
+}
+.userLogLink{
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(24, 122, 235);
+    cursor: pointer;
+}
+.downIcon{
+    margin-left: 8px;
+}
+.userAccountBoxRes{
+    display: none;
+}
+.postUser{
+    display: flex;
+}
+.userPhoto{
+    border-radius: 50px;
+    height: 25px;
+    width: 25px;
+}
+.userName{
+    margin: 3px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+}
+.searchBox{
+    display: flex;
+}
+.userChange1Button{
+    background-color: rgba(0, 0, 0, 0.155);
+    color: black;
+    padding-top: 6px;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    margin-right: 10px;
+}
+.userChange2Button{
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    padding-top: 6px;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+@media only screen and (max-width: 670px) {
+
+    .searchText{
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 450px) {
+
+    
+    .userAccountBoxRes{
+        display: block;
+    }
+    .userLogLink{
+        font-size: 13px;
+        margin-top: 5px;
+    }
+    .navConatainer{
+        padding: 10px 20px;
+    }
+    .searchBox,.userAccountBox{
+        display: none;
+    }
+
+}

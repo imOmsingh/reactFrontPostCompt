@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+.heroContainer{
+    height:55vh;
+    width: 100%;
+    background-color: pink;
+    background-image: url('heroimage.jpg');
+    background-size: cover;
+    position: relative;
+    background-position: 10% 18% ;
+    z-index: -2;
+    padding-top: 30vh;
+}
+.heroContainer img{
+    width: 100%;
+    object-fit: cover;
+}
+.heroImageMask{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.65;
+}
+.joinNowCont{
+    position: absolute;
+    top: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    right: 20px;
+    color: white;
+    border: white 1.5px solid;
+    cursor: pointer;
+    display: none;
+    opacity: 1;
+    padding: 2px 4px 3px 4px;
+    border-radius: 5px;
+    background: transparent;
+}
+.heroHeadingContainer{
+    height: 100px;
+    width: auto;
+    margin-left: 10vw;   
+}
+.heroMainHeading{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.heroMainSubHeading{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    opacity: 0.8;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 940px) {
+
+    .heroContainer{
+        height: 30vh;
+        padding-top: 20vh;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+
+    .joinNowCont{
+        display: block;
+    }
+    .heroMainHeading{
+    font-size: 20px;
+
+    }
+
+
+}
